@@ -5,7 +5,7 @@ const bodyParser=require('body-parser')
 const app=express()
 app.use(bodyParser.json());
 
-const MONGO_URI = "Your_uri";
+const MONGO_URI = "mongodb+srv://Amol:aware@cluster0.pckmuom.mongodb.net/Student";
 
 mongoose.connect(MONGO_URI, 
     { useNewUrlParser: true, useUnifiedTopology: true })
